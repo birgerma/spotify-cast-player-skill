@@ -34,8 +34,8 @@ skillMetadata:
           value: ""
     - name: Access tokens
       fields:
-        - type: Label
-          label: Some label
+        - type: label
+          label: Access tokens
         - name: sp_dc
           type: password
           label: sp_dc
