@@ -1,0 +1,47 @@
+
+skillMetadata:
+  sections:
+    - name: Options 
+      fields:
+        - name: internal_python_variable_name
+          type: text
+          label: Set default device name
+          value: ""
+          placeholder: demo prompt in the input box
+    - name: Login << Name of another section
+      fields:
+        - type: label
+          label: Login credentials for your account
+        - name: username
+          type: text
+          label: Username
+          value: ""
+        - name: password
+          type: password
+          label: Password
+          value: ""
+    - name: Developer credentials << Name of another section
+      fields:
+        - type: label
+          label: Client id and secret for your developer account
+        - name: client_id
+          type: text
+          label: Client Id
+          value: ""
+        - name: client_secret
+          type: password
+          label: Client secret
+          value: ""
+    - name: Access tokens
+      fields:
+        - type: Label
+          label: Some label
+        - name: sp_dc
+          type: password
+          label: sp_dc
+          value: ""
+        - name: sp_key
+          type: password
+          label: sp_key
+          value: ""
+
